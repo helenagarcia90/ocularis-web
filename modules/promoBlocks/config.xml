@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+    
+    <name>Bloques de la página principal</name>
+    <version>1</version>
+    
+    <versionDisplays>
+        <version number="1">1.0</version>
+    </versionDisplays>
+        
+    
+    <adminMenu>
+        <item label="Bloques">
+            <item route="/promoBlocks/promoBlock/index" label="Bloques"/>
+            <item route="/promoBlocks/promoBlockWidget/index" label="Widgets"/>
+        </item>
+    </adminMenu>
+    
+    
+</module>

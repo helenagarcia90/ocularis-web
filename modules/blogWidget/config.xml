@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+    
+    <name>Blog Widget</name>
+    <version>1</version>
+    
+    <versionDisplays>
+        <version number="1">1.0</version>
+    </versionDisplays>
+        
+    
+    <adminMenu>
+        <item route="/blogWidget/default/index" label="Blog Widgets"/>
+    </adminMenu>
+    
+    
+</module>

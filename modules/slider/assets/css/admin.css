@@ -1,0 +1,12 @@
+@CHARSET "ISO-8859-1";
+
+
+#slides_container .slide-container
+{
+	margin: 15px 0;
+}
+
+#slides_container .btn-group
+{
+	margin-right: 15px;
+} 

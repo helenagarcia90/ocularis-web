@@ -1,0 +1,73 @@
+#slider
+{
+	margin: auto;	
+}
+
+#slider-container
+{
+	
+	padding: 20px 0px 0px 0px;
+	margin: 0px;
+	width: 1280px;
+	height: 417px;
+	margin: auto;
+	background: url(img/slider-shadow.png) no-repeat 160px 305px;
+}
+	
+/* Basic jQuery Slider essential styles */
+
+ul.bjqs{position:relative; list-style:none;padding:0;margin:0;overflow:hidden; display:none;}
+li.bjqs-slide{position:absolute; display:none;}
+
+
+ol.bjqs-markers{
+
+	list-style: none; padding: 0; margin: 0;
+	position:absolute;
+	bottom:1px;
+	right: 15px;
+	padding: 15px 0px;
+	font-size: 6px;
+	
+}
+
+ol.bjqs-markers li{display:inline; }
+
+ol.bjqs-markers li a{
+		display:inline-block;
+		width: 28px;
+		height: 6px;
+		text-indent: 5000px;
+		margin: 0px 2px;
+		background: #fff;
+}
+
+ol.bjqs-markers li.active-marker a
+{
+	background: #96c11f;
+}
+
+p.bjqs-caption{
+
+display:block;
+
+margin:0;
+width: 96%;
+position:absolute;
+bottom:0;
+
+background: #575757; /* Old browsers */
+background: -moz-linear-gradient(left,  #575757 0%, #0b0b0b 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#575757), color-stop(100%,#0b0b0b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #575757 0%,#0b0b0b 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #575757 0%,#0b0b0b 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #575757 0%,#0b0b0b 100%); /* IE10+ */
+background: linear-gradient(to right,  #575757 0%,#0b0b0b 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#575757', endColorstr='#0b0b0b',GradientType=1 ); /* IE6-9 */
+padding: 10px 2%;
+color: #fff;
+}
+
+
+
+

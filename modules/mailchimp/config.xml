@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+    
+    <name>MailChimp newsletter</name>
+    <version>1</version>
+    
+    <versionDisplays>
+        <version number="1">1.0</version>
+    </versionDisplays>
+    
+    <adminMenu>
+    </adminMenu>
+        
+</module>

@@ -1,0 +1,17 @@
+@CHARSET "ISO-8859-1";
+
+#system-readmore {
+	background-image: url('images/readmore.gif');
+	background-position: center center;
+	background-repeat: no-repeat;
+	clear: both;
+	display: block;
+	float: none;
+	width: 100%;
+	border-top: #999999 1px dotted;
+	border-bottom: #999999 1px dotted;
+	height: 5px;
+
+	border-top: #FF0000 1px dotted;
+	border-bottom: #FF0000 1px dotted;
+}
