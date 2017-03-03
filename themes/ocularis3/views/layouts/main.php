@@ -30,7 +30,7 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/js/boo
                 <?php $this->widget('modules.slider.components.widgets.SliderWidget', array('anchor' => 'home')); ?>
         </div>
         <?php } ?>
-
+        <div class="img-asocia"><a href="<?= Yii::app()->baseUrl; ?>/es/hazte-socio"><img src="<?=Yii::app()->theme->baseUrl;?>/images/mascota.png" /><a/></div>
         <nav id="topNav" class="navbar">
 
             <div class="container">
@@ -42,12 +42,12 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/js/boo
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/"><img src="<?=Yii::app()->theme->baseUrl."/"; ?>images/logo.png" /></a>
+                    <a class="navbar-brand" href="<?= Yii::app()->baseUrl; ?>"><img src="<?=Yii::app()->theme->baseUrl."/"; ?>images/logo.png" /></a>
                 </div>
 
                 <div id="navbar" class="collapse navbar-collapse navbar-ex1-collapse">
 
-                    <?php $this->widget('webroot.themes.ocularis2.components.BootstrapMenu', array('id' => 'mainmenu',
+                    <?php $this->widget('webroot.themes.ocularis3.components.BootstrapMenu', array('id' => 'mainmenu',
                     'anchor' => 'top-menu',
                     )); ?>
 
@@ -59,7 +59,9 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/js/boo
                             <a href="http://plus.google.com/u/0/+HolaOCULARIS" target="_blank"><span class="fa fa-google-plus-square"></span></a>
                             <a href="/es/contact"><span class="fa fa-envelope"></span></a>
                         </div>
-                        <div class="socio"><a href="/es/hazte-socio">¡Hazte Socio!</a></div>
+                        <div class="socio">
+                            <a href="<?= Yii::app()->baseUrl; ?>/es/hazte-socio">¡Hazte socio/a!</a>
+                        </div>
                     </div>
 
                 </div>

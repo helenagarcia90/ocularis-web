@@ -29,7 +29,7 @@
  	</div>
 
  	<div class="col-sm-4 col-lg-3">
- 		<?=CHtml::image(Yii::app()->theme->baseUrl . '/images/socio.jpg', 'Hazte socio de Ocuilaris!', array('class' => 'img-responsive'));?>
+ 		<?=CHtml::image(Yii::app()->theme->baseUrl . '/images/socio.png', 'Hazte socio de Ocuilaris!', array('class' => 'img-responsive'));?>
  	</div>
 
  	</div>
