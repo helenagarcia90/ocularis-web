@@ -166,9 +166,10 @@ h2.left-mark{
 
 .img-asocia{
   float: left;
-  position: absolute;
-  top: 75%;
-  left: 75%;
+  position: relative;
+  top: -200px;
+  left: 68%;
+  z-index: 1;
 }
 
 @media (max-width: 992px){

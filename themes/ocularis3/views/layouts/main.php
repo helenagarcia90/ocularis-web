@@ -30,7 +30,6 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/js/boo
                 <?php $this->widget('modules.slider.components.widgets.SliderWidget', array('anchor' => 'home')); ?>
         </div>
         <?php } ?>
-        <div class="img-asocia"><a href="<?= Yii::app()->baseUrl; ?>/es/hazte-socio"><img src="<?=Yii::app()->theme->baseUrl;?>/images/mascota.png" /><a/></div>
         <nav id="topNav" class="navbar">
 
             <div class="container">

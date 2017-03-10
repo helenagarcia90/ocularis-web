@@ -4,12 +4,12 @@
 /* @var $form CActiveForm */
 
 Yii::app()->clientScript->registerCss('captcha','
-		
+
 .captcha .form-control-feedback
 {
 	top: 75px;
-}		
-		
+}
+
 ');
 
 $this->pageTitle=Yii::t('contact', 'Contact Us');
@@ -22,9 +22,9 @@ $this->pageTitle=Yii::t('contact', 'Contact Us');
 <div class="jumbotron bottom0">
 
     <div class="container">
-        <a href="#" class="mascota"><img src="<?=Yii::app()->theme->baseUrl. '/images/mascota.png';?>"></a>
-        <p>LOREM IPSUM DOLOR SIT AMET, CONSECTETUER ADIPISCING ELIT, <br />
-            SED DIAM NONUMMY NIBH EUISMOD TINCIDUNT UT LAOREET</p>
+        <a href="<?= Yii::app()->baseUrl; ?>/es/hazte-socio" class="mascota"><img src="<?=Yii::app()->theme->baseUrl. '/images/mascota.png';?>"></a>
+        <!--p>LOREM IPSUM DOLOR SIT AMET, CONSECTETUER ADIPISCING ELIT, <br />
+            SED DIAM NONUMMY NIBH EUISMOD TINCIDUNT UT LAOREET</p-->
     </div>
 
 </div>
